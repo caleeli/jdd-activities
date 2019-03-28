@@ -18,8 +18,8 @@
       </humanPerformer>
     </userTask>
     <sequenceFlow id="_4" sourceRef="forms" targetRef="_5"/>
-    <startEvent id="forms" isInterrupting="true" name="Formularios" parallelMultiple="false">
-      <documentation id="firmas_D_1" textFormat="text/plain"><![CDATA[Administrar formularios.]]></documentation>
+    <startEvent id="forms" isInterrupting="true" name="Procesos" parallelMultiple="false">
+      <documentation id="firmas_D_1" textFormat="text/plain"><![CDATA[Administrar procesos.]]></documentation>
       <extensionElements>
         <yaoqiang:style fillColor="#33FF00"/>
       </extensionElements>
@@ -71,7 +71,7 @@
       <bpmndi:BPMNShape bpmnElement="forms" id="Yaoqiang-forms">
         <dc:Bounds height="32.0" width="32.0" x="233.0" y="252.26470588235293"/>
         <bpmndi:BPMNLabel>
-          <dc:Bounds height="18.96" width="71.0" x="213.5" y="292.79"/>
+          <dc:Bounds height="18.96" width="55.0" x="221.5" y="292.79"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="_5" id="Yaoqiang-_5">
