@@ -12,7 +12,7 @@ class CreateFormsTable extends Migration
      */
     public function up()
     {
-        Schema::create('forms', function (Blueprint $table) {
+        Schema::create('diagrams', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->softDeletes();
@@ -29,6 +29,6 @@ class CreateFormsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('forms');
+        Schema::drop('diagrams');
     }
 }
