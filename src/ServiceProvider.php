@@ -1,10 +1,10 @@
 <?php
 
-namespace JDD\Forms;
+namespace JDD\Activities;
 
 use App\Facades\JDD;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use JDD\Forms\Models\Diagram;
+use JDD\Activities\Models\Diagram;
 
 class ServiceProvider extends BaseServiceProvider
 {

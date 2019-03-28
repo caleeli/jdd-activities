@@ -1,6 +1,6 @@
 <?php
 
-namespace JDD\Forms\Models;
+namespace JDD\Activities\Models;
 
 use App\Model;
 
