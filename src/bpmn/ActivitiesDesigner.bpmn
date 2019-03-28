@@ -17,8 +17,8 @@
         <resourceRef>RS_1</resourceRef>
       </humanPerformer>
     </userTask>
-    <sequenceFlow id="_4" sourceRef="forms" targetRef="_5"/>
-    <startEvent id="forms" isInterrupting="true" name="Procesos" parallelMultiple="false">
+    <sequenceFlow id="_4" sourceRef="start" targetRef="_5"/>
+    <startEvent id="start" isInterrupting="true" name="Procesos" parallelMultiple="false">
       <documentation id="firmas_D_1" textFormat="text/plain"><![CDATA[Administrar procesos.]]></documentation>
       <extensionElements>
         <yaoqiang:style fillColor="#33FF00"/>
@@ -68,7 +68,7 @@
           <dc:Bounds height="32.96" width="50.0" x="505.0" y="253.79"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="forms" id="Yaoqiang-forms">
+      <bpmndi:BPMNShape bpmnElement="start" id="Yaoqiang-start">
         <dc:Bounds height="32.0" width="32.0" x="233.0" y="252.26470588235293"/>
         <bpmndi:BPMNLabel>
           <dc:Bounds height="18.96" width="55.0" x="221.5" y="292.79"/>

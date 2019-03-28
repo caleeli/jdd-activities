@@ -1,6 +1,6 @@
 
 // Icon for start event "forms"
-require('../assets/forms.svg');
+require('../assets/start.svg');
 
 window.addEventListener('load', () => {
     const Actividades = require('./Actividades').default;
@@ -11,4 +11,4 @@ window.addEventListener('load', () => {
     ]);
 });
 
-export const icon = require('../assets/logo.svg');
+export const icon = require('../assets/start.svg');
