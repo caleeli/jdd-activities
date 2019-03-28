@@ -1,4 +1,3 @@
-import Vue from 'vue';
 
 // Icon for start event "forms"
 require('../assets/start.svg');
