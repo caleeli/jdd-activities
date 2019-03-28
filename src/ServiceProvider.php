@@ -21,7 +21,7 @@ class ServiceProvider extends BaseServiceProvider
         JDD::addModule(
             self::PluginName,
             // Javascripts
-            ['/modules/' . self::PluginName . '/jdd-activities.umd.js', '/modules/' . self::PluginName . '/jdd-activities.common.js'],
+            ['/modules/' . self::PluginName . '/jdd-activities.umd.js'],
             // Stylesheets
             ['/modules/' . self::PluginName . '/jdd-activities.css'],
             // BPMN
