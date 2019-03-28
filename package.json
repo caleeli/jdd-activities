@@ -1,0 +1,61 @@
+{
+  "name": "jdd-activities",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name jdd-activities ./src/components/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@processmaker/modeler": "^0.7.2",
+    "@processmaker/processmaker-bpmn-moddle": "^0.2.0",
+    "jq-ajax-progress": "^1.0.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0",
+    "vue": "^2.5.21",
+    "vue-jdd-components": "git+https://github.com/caleeli/jdd-vue-components.git#master",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "vue-jdd-form": "git+file:///Users/davidcallizaya/Netbeans/vue-jdd-form",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "bootstrap": "^4.2.1",
+    "node-sass": "^4.11.0",
+    "popper.js": "^1.14.6",
+    "sass-loader": "^7.1.0",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
