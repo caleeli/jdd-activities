@@ -23,8 +23,6 @@
 
 
 <script>
-import Vue from "vue";
-window.vue2 = Vue;
 
 import { Modeler, Statusbar, ValidationStatus } from "@processmaker/modeler";
 import moment from "moment";
