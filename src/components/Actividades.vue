@@ -180,7 +180,7 @@ export default {
               //this.$router.push(this.$processCompleteRoute({accion:"completar"}));
             });
           } else {
-            this.data.postToAPI("/api/form").then(() => {
+            this.data.postToAPI("/api/diagram").then(() => {
               //this.$router.push(this.$processCompleteRoute({accion:"completar"}));
             });
           }
