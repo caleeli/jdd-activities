@@ -30,8 +30,8 @@ class ServiceProvider extends BaseServiceProvider
             [Diagram::class]
         );
         $this->loadMigrationsFrom(__DIR__ . '/migrations');
-        $target = getcwd() . '/public/modules/jdd/activities/img';
-        $link = getcwd() . '/public/img';
+        $target = base_path('/public/modules/jdd/activities/img');
+        $link = base_path('/public/img');
         if (!file_exists($link)) {
             symlink($target, $link);
         }
