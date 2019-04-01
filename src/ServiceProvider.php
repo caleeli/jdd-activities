@@ -30,5 +30,6 @@ class ServiceProvider extends BaseServiceProvider
             [Diagram::class]
         );
         $this->loadMigrationsFrom(__DIR__ . '/migrations');
+        symlink(getcwd() . '/public/modules/jdd/activities/img', getcwd() . '/public/img');
     }
 }
