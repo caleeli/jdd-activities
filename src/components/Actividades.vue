@@ -140,7 +140,7 @@ export default {
     return {
       process: { bpmn: "", name: "Proceso" },
       data: new window.ApiObject(
-        "/api/actividad/" + this.$route.params.id,
+        "/api/diagram/" + this.$route.params.id,
         errores
       ).loadFromAPI(),
       validationErrors: {}
@@ -176,7 +176,7 @@ export default {
           this.data.attributes.xml = xml;
           this.data.attributes.name = this.process.name;
           if (this.data.id) {
-            this.data.putToAPI("/api/actividad/" + this.data.id).then(() => {
+            this.data.putToAPI("/api/diagram/" + this.data.id).then(() => {
               //this.$router.push(this.$processCompleteRoute({accion:"completar"}));
             });
           } else {
