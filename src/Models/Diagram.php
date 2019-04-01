@@ -6,7 +6,7 @@ use App\Model;
 
 class Diagram extends Model
 {
-    protected $table = 'forms';
+    protected $table = 'diagrams';
     public $timestamps = true;
 
     protected $dates = ['deleted_at'];

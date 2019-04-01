@@ -4,8 +4,8 @@
       <div class="navbar">
         <div>{{process.name}}</div>
         <div class="actions">
-          <a class="btn btn-sm btn-outline-black">
-            <i @click="saveBpmn" class="fa fa-save"></i> Guardar
+          <a class="btn btn-sm btn-outline-black" @click="saveBpmn">
+            <i class="fa fa-save"></i> Guardar
           </a>
         </div>
       </div>

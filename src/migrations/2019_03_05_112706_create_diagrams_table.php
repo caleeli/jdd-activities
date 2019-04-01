@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateFormsTable extends Migration
+class CreateDiagramsTable extends Migration
 {
     /**
      * Run the migrations.
