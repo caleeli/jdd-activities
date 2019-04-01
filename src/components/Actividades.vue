@@ -173,7 +173,7 @@ export default {
             "danger"
           );
         } else {
-          this.data.attributes.xml = xml;
+          this.data.attributes.content = xml;
           this.data.attributes.name = this.process.name;
           if (this.data.id) {
             this.data.putToAPI("/api/diagram/" + this.data.id).then(() => {
