@@ -32,7 +32,7 @@ class ServiceProvider extends BaseServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/migrations');
         $target = base_path('/public/modules/jdd/activities/img');
         $link = base_path('/public/img');
-        if (!file_exists($link)) {
+        if (!file_exists($link) && file_exists($target)) {
             symlink($target, $link);
         }
     }
